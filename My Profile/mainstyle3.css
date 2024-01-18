@@ -1,0 +1,157 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@600&display=swap');
+*
+{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+body
+{
+    background: rgb(255, 255, 255);
+    min-height: 0.1%;
+}
+header
+{
+    position: fixed;
+    top: 0%;
+    right: 0%;
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+    transition: 1s;
+    padding: 50px 100px;
+    z-index: 100000;
+}
+header.Bar
+{
+    padding: 25px 100px;
+    background: rgb(255, 255, 255);
+}
+header .G
+{
+    position: relative;
+    font-weight: 10%;
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    font-size: 3em;
+    text-transform: uppercase;
+    letter-spacing: 10px;
+    transition: 1.5s;
+}
+header ul
+{
+    position: relative;
+    display: flex;
+    justify-content: right;
+    align-items: center;
+}
+header ul li
+{
+    position: relative;
+    text-decoration: none;
+    transition-duration: 0.3s;
+    transition-delay: 0s;
+    transition-timing-function: ease;
+}
+header ul li:hover
+{
+    transform: translateY(-10px);
+}
+header ul li a
+{
+    color: aliceblue;
+    position: relative;
+    margin: 15px;
+    text-decoration: none;
+    letter-spacing: 3px;
+    font-weight: 2000px;
+    transition: 1.6s;
+    font-size: 20px;
+}
+header.Bar .G
+{
+    color: black;
+}
+header.Bar ul li a
+{
+    color: rgb(0, 0, 0);
+}
+.back-video
+{
+    position: absolute;
+    width: 100%;
+    z-index: -1;
+    margin: 0;
+    padding: 0;
+
+}
+.QW
+{
+    color: azure;
+    position: relative;
+    font-size: 2em;
+    top: 1000px;
+    left: 100px; 
+}
+.QWQ
+{
+    color: azure;
+    position: relative;
+    font-size: 1em;
+    top: 1000px;
+    left: 120px;
+}
+body{
+    overflow-x: hidden;
+}
+div
+{
+    font-size: 60px;
+    position: relative;
+    top: 150px;
+    left: 430px;
+    color: pink;
+}
+div ul
+{
+    position: relative;
+    list-style: none;
+    display: flex;
+}
+div ul li .POP
+{
+    text-decoration: none;
+    letter-spacing: 3px;
+    color: pink;
+}
+div ul li
+{
+    margin: 15px;
+}
+div:hover
+{
+    transform: translate(-20px);
+}
+div
+{
+    transition-duration: 0.5s;
+}
+div ul li .Facebook
+{
+    text-decoration: none;
+    letter-spacing: 3px;
+    color: pink;
+}
+div ul li .TikTok
+{
+    text-decoration: none;
+    letter-spacing: 3px;
+    color: pink;
+}
+div ul li .discord
+{
+    text-decoration: none;
+    letter-spacing: 3px;
+    color: pink;
+}
